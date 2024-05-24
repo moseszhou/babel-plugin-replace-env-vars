@@ -1,0 +1,21 @@
+{
+  "name": "babel-plugin-replace-env",
+  "version": "1.0.0",
+  "description": "`babel-plugin-replace-env-vars` is a Babel plugin designed to replace occurrences of process.env.xxx in your code with the corresponding environment variable values at build time. If the environment variable process.env.xxx does not exist during the build, it will be replaced with undefined. This plugin helps to inject environment variables during the build process, optimizing code execution and improving performance.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/moseszhou/babel-plugin-replace-env-vars"
+  },
+  "author": "moses.zhou",
+  "license": "MIT",
+  "keywords": [
+    "babel",
+    "plugin",
+    "replace",
+    "process.env"
+  ]
+}
